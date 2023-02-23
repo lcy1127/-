@@ -1,0 +1,55 @@
+<!--
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2023-02-19 15:24:12
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2023-02-20 16:09:04
+ * @FilePath: \VSqianduan\code\太极案例.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: bisque;
+        }
+        div
+        {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(white 50%,black 50%);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            border-radius: 50%;
+            transition: all 5s;
+        }
+        div:hover{
+            transform: rotate(360deg);
+        }
+        div::before{
+            display: block;
+            content: "";
+            width: 100px;
+            height: 100px;
+            background:  radial-gradient(white 30%,black 30%);
+            border-radius: 50%;
+        }
+        div::after{
+            display: block;
+            content: "";
+            width: 100px;
+            height: 100px;
+            background:  radial-gradient(black 30%,white 30%);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
